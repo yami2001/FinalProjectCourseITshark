@@ -18,7 +18,7 @@ function Sidebar() {
         <div className="sidebar-widget">
             <h3>About us</h3>
             <div className="aboutMeWidget">
-                <img src="http://127.0.0.1:5501/finaltask/finaltask/images/ourlogo.png" alt="Francoise img"/>
+                <img src="/assets/images/ourlogo.png"/>
                 <p>A training company specialized in teaching programming languages, networking and computer science to ensure that you get practical experience in the field of software.</p>
             </div>
         </div>
