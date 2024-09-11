@@ -101,35 +101,35 @@ fetch(`https://xbellstore.com/itsharks24/blog/api/getpostsbycategory.php?categor
 					<div className="sbi_item sbi_type_image">
 						<div className="sbi_photo_wrap">
 							<a href="https://web.facebook.com" className="sbi_photo">
-								<img src="http://127.0.0.1:5501/finaltask/finaltask/images/content/inst.jpg" alt="Francoise img"/>
+								<img src="/assets/images/webimg/inst.jpg" alt="Francoise img"/>
 							</a>
 						</div>
 					</div>
 					<div className="sbi_item sbi_type_image">
 						<div className="sbi_photo_wrap">
 							<a href="https://x.com" className="sbi_photo">
-								<img src="http://127.0.0.1:5501/finaltask/finaltask/images/content/inst2.jpg" alt="Francoise img"/>
+								<img src="/assets/images/webimg/inst2.jpg" alt="Francoise img"/>
 							</a>
 						</div>
 					</div>
 					<div className="sbi_item sbi_type_image">
 						<div className="sbi_photo_wrap">
 							<a href="https://www.pinterest.com" className="sbi_photo">
-								<img src="http://127.0.0.1:5501/finaltask/finaltask/images/content/inst3.jpg" alt="Francoise img"/>
+								<img src="/assets/images/webimg/inst3.jpg" alt="Francoise img"/>
 							</a>
 						</div>
 					</div>
 					<div className="sbi_item sbi_type_image">
 						<div className="sbi_photo_wrap">
 							<a href="https://support.google.com/answer/2451065?hl=en" className="sbi_photo">
-								<img src="http://127.0.0.1:5501/finaltask/finaltask/images/content/inst4.jpg" alt="Francoise img"/>
+								<img src="/assets/images/webimg/inst4.jpg" alt="Francoise img"/>
 							</a>
 						</div>
 					</div>
 					<div className="sbi_item sbi_type_image">
 						<div className="sbi_photo_wrap">
 							<a href="https://web.facebook.com" className="sbi_photo">
-								<img src="http://127.0.0.1:5501/finaltask/finaltask/images/content/inst5.jpg" alt="Francoise img"/>
+								<img src="/assets/images/webimg/inst5.jpg" alt="Francoise img"/>
 							</a>
 						</div>
 					</div>

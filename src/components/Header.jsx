@@ -56,7 +56,7 @@ function Header(){
           </span>
         </div>	
       </div>
-      <Link to="/" className="logo">IT SHARKS 24</Link>
+      <Link to="/" className="logo">IT SHARKS 33</Link>
       
     </header>
     )

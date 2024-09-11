@@ -525,3 +525,4 @@ a:hover {text-decoration:none;}
 
 .comment-form-author, .comment-form-email, .comment-form-url {float: left;width: 260px;margin-left: 30px;}
 .comment-form-author {margin-left: 0;}
+body{overflow-x: hidden;}
