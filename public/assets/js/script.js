@@ -1,3 +1,12 @@
+$(document).ready(function() {
+	// Example of a correct .load() usage
+	$('#content').load('example.html', function(response, status, xhr) {
+	  if (status === 'error') {
+		console.log('Error: ' + xhr.status + ' ' + xhr.statusText);
+	  }
+	});
+  });
+  
 jQuery( document ).ready( function( $ ) {
     'use strict';
 

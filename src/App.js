@@ -7,13 +7,15 @@ import Single from './components/Single';
 import NotFound from './components/NotFound';
 import ScrollToTop from './components/ScrollToTop';
 
+
+
 function App() {
   
   return (
     <>
     <BrowserRouter>
-   
     <Header />
+    
     <Routes>
       <Route path="/" element={<MainPage />}/>
       <Route path="/Category/:category" element={<Category />}/>
