@@ -5,7 +5,6 @@ import { useEffect, useState } from "react";
 
 function Category() {
   let pram = useParams();
-  console.log(pram.category);
   const [Categories, setCategories] = useState([]);
 
 

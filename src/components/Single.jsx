@@ -26,7 +26,6 @@ function Single() {
 	useEffect(()=>{
 		const formdata = new FormData();
 
-console.log(prams.category)
 		
 fetch(`https://xbellstore.com/itsharks24/blog/api/getpostsbycategory.php?category=${prams.category}` )
   .then((response) => response.json())

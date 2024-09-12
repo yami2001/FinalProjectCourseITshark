@@ -28,7 +28,6 @@ function MainPage(){
 			<div className="contentLeft">
 				<div className="blogPostListWrap">
 					{results.map((res)=>{
-						console.log(res);
 						return(
 							
 							<div className="blogPostListItem clear" key={res.id}>
