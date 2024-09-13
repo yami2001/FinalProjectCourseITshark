@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import Sidebar from "./Sidebar";
+import parse from 'html-react-parser';
 
 function MainPage(){
 	
@@ -37,7 +38,7 @@ function MainPage(){
 						<div className="blogPostListText">
 							<div className="blogPostListTime">{res.date}</div>
 							<h3><Link to={"/Single/"+res.category +"/"+res.id}>{res.title} </Link></h3>
-							<p>{res.description}</p>
+							{parse(res.description)}
 						</div>
 					</div>
 						)

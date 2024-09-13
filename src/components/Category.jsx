@@ -1,7 +1,7 @@
 import { Link, useParams } from "react-router-dom";
 import Sidebar from "./Sidebar";
 import { useEffect, useState } from "react";
-
+import parse from 'html-react-parser';
 
 function Category() {
   let pram = useParams();
@@ -34,7 +34,7 @@ function Category() {
                 <Link to={`/Single/${Category.category}/${Category.id}`} className="archivePostImg">
                   <img src={`https://xbellstore.com/itsharks24/blog/admin/${Category.image}`} alt="Francoise img"/>
                 </Link>
-                <p>{Category.description}</p>
+                {parse(Category.description)}
                 <div className="archivePostItemMeta">
                   <Link to="#" className="archivePostItemComments">124 Comments</Link>
                   <div className="archivePostItemShareLinks">

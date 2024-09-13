@@ -1,7 +1,7 @@
 import { Link, useParams } from "react-router-dom";
 import Sidebar from "./Sidebar";
 import { useEffect, useState } from "react";
-
+import parse from 'html-react-parser';
 function Single() {
 	const prams=useParams();
 	const [Single,setSingle]=useState([]);
@@ -49,7 +49,7 @@ fetch(`https://xbellstore.com/itsharks24/blog/api/getpostsbycategory.php?categor
 					<div className="singlePostImg">
 						<img src={`https://xbellstore.com/itsharks24/blog/admin/${res.image}`} alt="Francoise img"/>
 					</div>
-					<p>{res.description}</p>
+					{parse(res.description)}
 					
 				</div>
 				</div>)
